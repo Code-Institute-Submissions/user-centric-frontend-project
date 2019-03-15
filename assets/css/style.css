@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*------------------->>>><<<<------------------------Entire Body*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------------------------------------------------Navbar*/
+
+nav {
+    overflow: hidden;
+    position: fixed;
+    margin: 0;
+    padding: 0 0;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+/*--------------------------------------------------Welcome-section*/
+
+.my-row {
+    height: 300px;
+    text-align: center;
+}
+
+.my-col {
+    margin: 0 auto;
+}
+
+img .my-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+}
+
+/*--------------------------------------------------Messages*/
+
+.second-row {
+    height: 300px;
+    text-align: center
+}
+
+.messages-section,
+.messages-section p{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
