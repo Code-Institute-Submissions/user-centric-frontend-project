@@ -11,15 +11,31 @@ html {
 }
 
 /*------------------->>>>NAVBAR<<<<------------------------*/
+
 .navbar {
-     background-color: transparent;
-  }
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a {
+    color: #ffff00;
+}
+
+.navbar .navbar-nav a {
+    color: #ffff00;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
 
 
 /*------------------->>>>JUMBOTRON<<<<------------------------*/
 
-.jumbotron{
-    background-image: url("/assets/images/photos/gym.jpg");
+.jumbotron {
+    background-image: url("/assets/images/photos/gym2.jpg");
     background-size: cover;
     color: #fff;
     height: 500px;
@@ -29,22 +45,24 @@ html {
 
 .jumbotron h1 {
     font-family: "Exo", font-family;
-    color:#ffff00; 
+    color: #ffff00;
 }
 
-.jumbotron .container-fluid{
-   padding-top: 70px; 
+.jumbotron .container-fluid {
+    padding-top: 70px;
 }
 
 /*------------------->>>>FEATURES<<<<------------------------*/
+
 .price {
-  color: #ff3300;
-  font-size: 22px;
-  font-family: "Roboto", font-family;
+    color: #ff3300;
+    font-size: 22px;
+    font-family: "Roboto", font-family;
 }
 
-.features{
-    margin-bottom: 10px;
+.features {
+    margin-bottom: 40px;
+    margin-top: 40px;
     font-family: "Roboto", font-family;
 }
 
@@ -53,4 +71,8 @@ html {
 section .my-5 h2 {
     margin-bottom: 10px;
     font-family: "Roboto", font-family;
+}
+
+.orange-text .fa-star {
+    color: orange;
 }

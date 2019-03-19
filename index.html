@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Document</title>
+    <title>Gym</title>
 </head>
 
 <body>
     <!--Navbar-->
+    <!--navbar-transparent command: https://stackoverflow.com/questions/16392952/css-to-make-bootstrap-navbar-transparent-->
     <header>
-        <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light ">
-            <a class="navbar-brand" href="#">Social</a>
+        <nav class="container-fluid navbar navbar-expand-lg navbar-color navbar-transparent ">
+            <a class="navbar-brand" href="#">Gym</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,7 +38,6 @@
         <div class=" jumbotron jumbotron-fluid img-fluid">
             <div class="container-fluid jumbo-container">
                 <h1>BUILD UP YOUR BODY TODAY</h1>
-                </h1>
                 <h5>A truly epic gym</h5>
                 <h5>OPEN 24/7</h5>
                 <button type="button" class="btn btn-warning">Subscribe Now</button>
@@ -50,7 +50,7 @@
             <!--title-->
             <div class="card-deck">
                 <div class="card">
-                    <img src="https://www.besthealthmag.ca/wp-content/uploads/sites/16/2019/01/what_is_cardio-1024x768.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/images/user-images/gym-girl.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">CARDIO</h5>
                         <p><strong class="price">$49.99</strong>/Month</p>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://musculacaoonline.com.br/wp-content/uploads/2016/11/4-formas-de-dividir-o-treino-de-muscula%C3%A7%C3%A3o-para-homens-iniciantes-1024x768.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/images/user-images/gym-guy.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">STRENGTH</h5>
                         <p><strong class="price">$24.99</strong>/Month</p>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://principlepilates.com/wp-content/uploads/2018/10/SP_Equipment_Group-02_72dpi-RGB-1024x768.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/images/user-images/gym-team.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">PILATES</h5>
                         <p><strong class="price">$39.99</strong>/Month</p>
@@ -84,111 +84,119 @@
                 </div>
             </div>
         </div>
+        
         <!--TESTIMONIES-code source:https://mdbootstrap.com/docs/jquery/sections/testimonials/-> 
-        <div class="container-fluid">
+        <!--font awesome: https://fontawesome.com/icons/star-half?style=solid-->
+        
+        
             <!-- Section: Testimonials v.3 -->
-        <section class="team-section text-center my-5">
+        <div class="container-fluid">
+            <section class="team-section text-center my-5">
 
-            <!-- Section heading -->
-            <h1 class="h1-responsive font-weight-bold my-5">Testimonials</h1>
-            <!-- Section description -->
-            <p class="dark-grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur veniam.</p>
+                <!-- Section heading -->
+                <h1 class="h1-responsive font-weight-bold my-5">Testimonials</h1>
+                <!-- Section description -->
+                <p class="dark-grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi.</p>
 
-            <!--Grid row-->
-            <div class="row text-center">
+                <!--Grid row-->
+                <div class="row text-center">
 
-                <!--Grid column-->
-                <div class="col-md-4 mb-md-0 mb-5">
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-md-0 mb-5">
 
-                    <div class="testimonial">
-                        <!--Avatar-->
-                        <div class="avatar mx-auto">
-                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg" class="rounded-circle z-depth-1 img-fluid">
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            <div class="avatar mx-auto">
+                                <img src="/assets/images/user-images/gym-member.jpg" class="rounded-circle z-depth-1 img-fluid">
+                            </div>
+                            <!--Content-->
+                            <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
+                            <h6 class="font-weight-bold blue-text my-3">Gym Member</h6>
+                            <p class="font-weight-normal dark-grey-text">
+                                <i class="fa fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+
+                            </div>
                         </div>
-                        <!--Content-->
-                        <h4 class="font-weight-bold dark-grey-text mt-4">Anna Deynah</h4>
-                        <h6 class="font-weight-bold blue-text my-3">Gym Member</h6>
-                        <p class="font-weight-normal dark-grey-text">
-                            <i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.</p>
-                        <!--Review-->
-                        <div class="orange-text">
-                            <span class="fas fa-star"> </span>
-                            <span class="fas fa-star"> </span>
-                            <span class="fas fa-star"> </span>
-                            <span class="fas fa-star"> </span>
-                            <span class="fas fa-star-half-alt"> </span>
-                        </div>
+
                     </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-md-0 mb-5">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            <div class="avatar mx-auto">
+                                <img src="/assets/images/user-images/personal-trainer.jpg" class="rounded-circle z-depth-1 img-fluid">
+                            </div>
+                            <!--Content-->
+                            <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
+                            <h6 class="font-weight-bold blue-text my-3">Personal Trainer</h6>
+                            <p class="font-weight-normal dark-grey-text">
+                                <i class="fa fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4">
+
+                        <div class="testimonial">
+                            <!--Avatar-->
+                            <div class="avatar mx-auto">
+                                <img src="/assets/images/user-images/gym-member2.png" class="rounded-circle z-depth-1 img-fluid">
+                            </div>
+                            <!--Content-->
+                            <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
+                            <h6 class="font-weight-bold blue-text my-3">Gym Member</h6>
+                            <p class="font-weight-normal dark-grey-text">
+                                <i class="fa fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
+                            <!--Review-->
+                            <div class="orange-text">
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                                <i class="fa fa-star"> </i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--Grid column-->
 
                 </div>
-                <!--Grid column-->
+                <!--Grid row-->
 
-                <!--Grid column-->
-                <div class="col-md-4 mb-md-0 mb-5">
-
-                    <div class="testimonial">
-                        <!--Avatar-->
-                        <div class="avatar mx-auto">
-                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(8).jpg" class="rounded-circle z-depth-1 img-fluid">
-                        </div>
-                        <!--Content-->
-                        <h4 class="font-weight-bold dark-grey-text mt-4">John Doe</h4>
-                        <h6 class="font-weight-bold blue-text my-3">Personal Trainer</h6>
-                        <p class="font-weight-normal dark-grey-text">
-                            <i class="fas fa-quote-left pr-2"></i>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.</p>
-                        <!--Review-->
-                        <div class="orange-text">
-                            <i class="fas fa-star"> </i>
-                            <i class="fas fa-star"> </i>
-                            <i class="fas fa-star"> </i>
-                            <i class="fas fa-star"> </i>
-                            <i class="fas fa-star"> </i>
-                        </div>
-                    </div>
-
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-4">
-
-                    <div class="testimonial">
-                        <!--Avatar-->
-                        <div class="avatar mx-auto">
-                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle z-depth-1 img-fluid">
-                        </div>
-                        <!--Content-->
-                        <h4 class="font-weight-bold dark-grey-text mt-4">Maria Kate</h4>
-                        <h6 class="font-weight-bold blue-text my-3">Gym Member</h6>
-                        <p class="font-weight-normal dark-grey-text">
-                            <i class="fas fa-quote-left pr-2"></i>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
-                        <!--Review-->
-                        <div class="orange-text">
-                            <i class="fas fa-star"> </i>
-                            <i class="fas fa-star"> </i>
-                            <i class="fas fa-star"> </i>
-                            <i class="fas fa-star"> </i>
-                            <i class="far fa-star"> </i>
-                        </div>
-                    </div>
-
-                </div>
-                <!--Grid column-->
-
-            </div>
-            <!--Grid row-->
-
-        </section>
-        <!-- Section: Testimonials v.3 -->
+            </section>
+            <!-- Section: Testimonials v.3 -->
         </div>
     </main>
 </body>
 
 </html>
-<!--change the avatar's image. it doesnt looks like gym testimonials-->
 
-<!--make sure of how to appear the stars-->
+<!--change the avatar's image. it doesnt looks like gym testimonials--DON//> 
+
+<!--make sure of how to appear the stars--DONE//>
 
 <!--make more one or two sections, not mentioning the footer-->
 
-<!--understand how to make the navbar transparent-->
+<!--understand how to make the navbar only sandwish for all screens-->
+
+<!--change the links for real images saved in your files-->
+
