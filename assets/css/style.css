@@ -10,50 +10,47 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-/*--------------------------------------------------Navbar*/
+/*------------------->>>>NAVBAR<<<<------------------------*/
+.navbar {
+     background-color: transparent;
+  }
 
-nav {
-    overflow: hidden;
-    position: fixed;
-    margin: 0;
-    padding: 0 0;
-    z-index: 5;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: transparent;
+
+/*------------------->>>>JUMBOTRON<<<<------------------------*/
+
+.jumbotron{
+    background-image: url("/assets/images/photos/gym.jpg");
+    background-size: cover;
+    color: #fff;
+    height: 500px;
+    margin-bottom: 0;
+    /*answer: https://stackoverflow.com/questions/22000754/responsive-bootstrap-jumbotron-background-image?lq=1*/
 }
 
-/*--------------------------------------------------Welcome-section*/
-
-.my-row {
-    height: 300px;
-    text-align: center;
+.jumbotron h1 {
+    font-family: "Exo", font-family;
+    color:#ffff00; 
 }
 
-.my-col {
-    margin: 0 auto;
+.jumbotron .container-fluid{
+   padding-top: 70px; 
 }
 
-img .my-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30px;
-    height: 30px;
+/*------------------->>>>FEATURES<<<<------------------------*/
+.price {
+  color: #ff3300;
+  font-size: 22px;
+  font-family: "Roboto", font-family;
 }
 
-/*--------------------------------------------------Messages*/
-
-.second-row {
-    height: 300px;
-    text-align: center
+.features{
+    margin-bottom: 10px;
+    font-family: "Roboto", font-family;
 }
 
-.messages-section,
-.messages-section p{
-    text-align: center;
-    margin: 0 auto;
+/*------------------->>>>TESTIMONIALS<<<<------------------------*/
+
+section .my-5 h2 {
+    margin-bottom: 10px;
+    font-family: "Roboto", font-family;
 }
-
-
