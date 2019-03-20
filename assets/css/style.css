@@ -76,3 +76,20 @@ section .my-5 h2 {
 .orange-text .fa-star {
     color: orange;
 }
+
+/*------------------->>>>Video Section<<<<------------------------*/
+
+.container-video-section .row{
+   height: 300px;
+}
+
+col-sm-4{
+    pa
+}
+
+.col-sm-4 iframe{
+    border: none;
+    width: 80%;
+    height: 80%;
+    padding-top: 20px;
+}
