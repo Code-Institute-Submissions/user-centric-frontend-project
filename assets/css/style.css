@@ -54,6 +54,11 @@ html {
 
 /*------------------->>>>FEATURES<<<<------------------------*/
 
+.features-container{
+   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); 
+   /*source: https://webgradients.com/*/
+}
+
 .price {
     color: #ff3300;
     font-size: 22px;
@@ -79,12 +84,18 @@ section .my-5 h2 {
 
 /*------------------->>>>Video Section<<<<------------------------*/
 
+.container-video-section {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: "Exo", sans-serif;
+    color:#fff;
+}
+
 .container-video-section .row{
    height: 300px;
 }
 
-col-sm-4{
-    pa
+.container-video-section h1{
+    padding-top: 20px;
 }
 
 .col-sm-4 iframe{
@@ -92,4 +103,8 @@ col-sm-4{
     width: 80%;
     height: 80%;
     padding-top: 20px;
+}
+
+.btn-video .btn-warning {
+   
 }
