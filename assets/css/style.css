@@ -49,13 +49,22 @@ html {
 }
 
 .jumbotron .container-fluid {
-    padding-top: 70px;
+    padding-top: 120px;
+}
+
+jumbotron.container-fluid.jumbo-container{
+    padding-top: 200px;
+}
+
+.btn-warning{
+    margin-top: 20px;
 }
 
 /*------------------->>>>FEATURES<<<<------------------------*/
 
-.features-container{
-   background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); 
+.container-fluid.features-container{
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+   padding-bottom: 20px;
    /*source: https://webgradients.com/*/
 }
 
@@ -66,9 +75,13 @@ html {
 }
 
 .features {
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 30px;
+    padding-top: 20px;
     font-family: "Roboto", font-family;
+}
+
+.card{
+    box-shadow: 0 3px 5px rgba(104, 104, 104, 0.8);
 }
 
 /*------------------->>>>TESTIMONIALS<<<<------------------------*/
@@ -81,13 +94,16 @@ section .my-5 h2 {
 .orange-text .fa-star {
     color: orange;
 }
+.testimonial img{
+    box-shadow: 0 5px 5px rgba(104, 104, 104, 0.8);
+}
 
 /*------------------->>>>Video Section<<<<------------------------*/
 
 .container-video-section {
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    font-family: "Exo", sans-serif;
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     color:#fff;
+    
 }
 
 .container-video-section .row{
@@ -105,6 +121,10 @@ section .my-5 h2 {
     padding-top: 20px;
 }
 
-.btn-video .btn-warning {
-   
+.btn-primary {
+   margin-top: 10px;
+}
+
+.container-fluid.container-video-section{
+    padding: 100 100px;
 }
