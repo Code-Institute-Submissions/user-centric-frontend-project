@@ -8,6 +8,7 @@ html {
     padding: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px
 }
 
 /*------------------->>>>NAVBAR<<<<------------------------*/
@@ -57,6 +58,7 @@ html {
 .features-container{
    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); 
    /*source: https://webgradients.com/*/
+   padding-bottom: 10px;
 }
 
 .price {
@@ -66,17 +68,16 @@ html {
 }
 
 .features {
-    margin-bottom: 40px;
-    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     font-family: "Roboto", font-family;
 }
 
 /*------------------->>>>TESTIMONIALS<<<<------------------------*/
 
-section .my-5 h2 {
+/*section .my-5 h2 {
     margin-bottom: 10px;
-    font-family: "Roboto", font-family;
-}
+}*/
 
 .orange-text .fa-star {
     color: orange;
@@ -91,11 +92,11 @@ section .my-5 h2 {
 }
 
 .container-video-section .row{
-   height: 300px;
+   height: 400px;
 }
 
 .container-video-section h1{
-    padding-top: 20px;
+    padding-top: 50px;
 }
 
 .col-sm-4 iframe{
@@ -110,9 +111,79 @@ section .my-5 h2 {
 /*------------------->>>>Our Mission - Section<<<<------------------------*/
 
 .about-us-container{
+    background-image: url("/assets/images/photos/gym5.jpg");
+    background-size: cover;
+    background-position: center center;
+   /* position: relative;
+    top: 0;
+    bottom 0;
+    height: 100vh;*/
+    z-index: -10;
     padding: 100px;
 }
 
-.about-us-row{}
+.dark-background{
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%
+    z-index: -5;
+}
+.about-us-row{
+   
+}
 
-.about-us-col{}
+.about-us-col{
+    color: #fff;
+}
+
+/*------------------->>>>Footer - Section<<<<------------------------*/
+
+.footer-container{
+   background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    color: #fff;
+    border-top: solid 5px #42b9f4;
+}
+
+.footer-col{}
+
+
+
+/*social media links code brought from the resume-mini-project------------*/
+.social-links{
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+/*social media links code brought from the resume-mini-project-------------*/
+
+.footer-col h5,
+.footer-col p,
+.footer-col ul {
+    text-align: left;
+    padding-top: 10px
+}

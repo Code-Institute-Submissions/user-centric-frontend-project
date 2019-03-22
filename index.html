@@ -23,11 +23,11 @@
   </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Testimonials</a>
-                    <a class="nav-item nav-link" href="#">Classes</a>
-                    <a class="nav-item nav-link" href="#">About Us</a>
+                    <!--<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+                    <a class="nav-item nav-link" href="#features">Features</a>
+                    <a class="nav-item nav-link" href="#testimonial">Testimonials</a>
+                    <a class="nav-item nav-link" href="#video">Classes</a>
+                    <a class="nav-item nav-link" href="#about">About Us</a>
                 </div>
             </div>
         </nav>
@@ -45,7 +45,7 @@
         </div>
         <!--FEATURES------------------------------------------->
         <!--Source: https://getbootstrap.com/docs/4.0/components/card/#header-and-footer-->
-        <div class="container-fluid features-container">
+        <div id="features" class="container-fluid features-container">
             <!--title-->
             <h1 class="features">Features</h1>
             <!--title-->
@@ -91,7 +91,7 @@
         <!-- Cards code source:https://mdbootstrap.com/docs/jquery/sections/testimonials/-->
         <!--font awesome: https://fontawesome.com/icons/star-half?style=solid-->
 
-        <div class="container-fluid">
+        <div id="testimonial" class="container-fluid">
             <section class="team-section text-center my-5">
 
                 <!-- Section heading -->
@@ -181,7 +181,7 @@
 
 
         <!--Content video-->
-        <div class="container-fluid container-video-section">
+        <div id="video" class="container-fluid container-video-section">
             <!--video title-->
             <h1>Classes</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laudantium nobis eaque perspiciatis, beatae culpa nostrum in, provident autem dignissimos vitae rem. Aliquam culpa, natus eius et quo at nulla!</p>
@@ -196,29 +196,57 @@
         </div>
 
         <!--About Us-->
-        <div class="container-fluid about-us-container">
-            <div class="row about-us-row justify-content-center">
-                <div class="col-sm-4 about-us-col">
+        <div id="about" class="container-fluid about-us-container dark-background">
+            <div  class="row about-us-row justify-content-center">
+                <div class="col-sm-4 col-xs-4 about-us-col">
                     <h3>About Us</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ea commodi dolore quae, earum nulla maiores voluptates facere ipsum! Maxime, similique culpa amet mollitia eaque architecto officiis reprehenderit repellat laborum.</p>
                 </div>
-                <div class="col-sm-4 about-us-col">
+                <div class="col-sm-4 col-xs-4 about-us-col">
                     <h3>Our Mission</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nam, est, atque quaerat ipsam maiores voluptate, corporis expedita magnam earum adipisci in saepe aliquam veniam omnis ipsum fugiat consectetur, iste!</p>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="app-footer">
-  <div>
-    <a href="https://coreui.io">CoreUI</a>
-    <span>&copy; 2018 creativeLabs.</span>
-  </div>
-  <div class="ml-auto">
-    <span>Powered by</span>
-    <a href="https://coreui.io">CoreUI</a>
-  </div>
-</footer>
+
+    <!--Footer Section-->
+    <footer id="footer" class="container-fluid footer-container">
+        <div class="row">
+            <div class="col-sm-4 footer-col">
+                <h5>Privacy & Terms</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate laudantium, inventore quibusdam in, ipsum.</p>
+            </div>
+            <div class="col-sm-4 footer-col">
+                <h5>Learn More</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis voluptate laudantium.</p>
+            </div>
+            <div class="col-sm-4 footer-col">
+                <h5>Connect With Us</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
