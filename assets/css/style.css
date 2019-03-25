@@ -45,7 +45,7 @@ html {
 /*------------------->>>>JUMBOTRON<<<<------------------------*/
 
 .jumbotron {
-    background-image: url("/assets/images/photos/gym4.jpg");
+    background-image: url("assets/images/photos/gym4.jpg");
     background-size: cover;
     color: #fff;
     height: 1000px;
