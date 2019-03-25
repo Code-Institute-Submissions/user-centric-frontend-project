@@ -36,10 +36,10 @@ html {
 /*------------------->>>>JUMBOTRON<<<<------------------------*/
 
 .jumbotron {
-    background-image: url("/assets/images/photos/gym2.jpg");
+    background-image: url("/assets/images/photos/gym4.jpg");
     background-size: cover;
     color: #fff;
-    height: 500px;
+    height: 1000px;
     margin-bottom: 0;
     /*answer: https://stackoverflow.com/questions/22000754/responsive-bootstrap-jumbotron-background-image?lq=1*/
 }
@@ -50,7 +50,12 @@ html {
 }
 
 .jumbotron .container-fluid {
-    padding-top: 70px;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+    /*code source: https://www.w3.org/Style/Examples/007/center.en.html*/
 }
 
 /*------------------->>>>FEATURES<<<<------------------------*/
@@ -75,9 +80,7 @@ html {
 
 /*------------------->>>>TESTIMONIALS<<<<------------------------*/
 
-/*section .my-5 h2 {
-    margin-bottom: 10px;
-}*/
+.testimonials{}
 
 .orange-text .fa-star {
     color: orange;
@@ -106,17 +109,9 @@ html {
     padding-top: 20px;
 }
 
-.btn-video .btn-warning {}
 
 /*------------------->>>>Our Mission - Section<<<<------------------------*/
 
-.about-us-container{
-  
-}
-
-.about-us-row{
-   
-}
 
 .about-us-col{
     color: #fff;
@@ -135,10 +130,6 @@ html {
     color: #fff;
     border-top: solid 5px #42b9f4;
 }
-
-
-
-
 
 /*social media links code brought from the resume-mini-project------------*/
 .social-links{
