@@ -16,21 +16,24 @@ html {
 .navbar {
     position: fixed;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid #d8d0b8;
+    background-color: rgba(255,140,0, 0.7);
+    border-bottom: 3px solid #d8d0b8;
 }
 
 .navbar a {
-    color: #ffff00;
+    color: #fff;
 }
 
 .navbar .navbar-nav a {
-    color: #ffff00;
+    color: #fff;
+    text-align: right;
 }
 
 .navbar .navbar-nav a:hover {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .navbar-toggler {
@@ -38,20 +41,26 @@ html {
     font-size: 1.25rem;
     line-height: 1;
     /*background-color: rgba(0, 0, 0, 0.2);*/ 
-    border: 1px solid #ffc107;
+    border: 3px solid #ffc107;
     border-radius: .25rem;
 }
 
 /*------------------->>>>JUMBOTRON<<<<------------------------*/
 
 .jumbotron {
-    background-image: url("../images/photos/gym4.jpg");
+    background-image: 
+    linear-gradient(
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)
+    ),
+    url("../images/photos/gym4.jpg");
+    /*code above is to display dark overlay\*/
     background-size: cover;
     color: #fff;
     height: 1000px;
     margin-bottom: 0;
-    z-index: -10;
     /*answer: https://stackoverflow.com/questions/22000754/responsive-bootstrap-jumbotron-background-image?lq=1*/
+    background-attachment: scroll; /*parallax effect*/
 }
 
 .jumbotron h1 {
@@ -69,15 +78,6 @@ html {
     /*code source: https://www.w3.org/Style/Examples/007/center.en.html*/
 }
 
-.jumbotron .jumbo-fluid .img-fluid{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.dark-background{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-}
 /*------------------->>>>FEATURES<<<<------------------------*/
 
 .features-container{
@@ -112,6 +112,7 @@ html {
     background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
     font-family: "Exo", sans-serif;
     color:#fff;
+    background-attachment: fixed;
 }
 
 .container-video-section .row{
@@ -122,12 +123,18 @@ html {
     padding-top: 50px;
 }
 
-.col-sm-4 iframe{
-    border: none;
-    width: 80%;
-    height: 80%;
-    padding-top: 20px;
+.my-video-col{
+    height: 30px;
 }
+
+iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.col-s
 
 
 /*------------------->>>>Our Mission - Section<<<<------------------------*/
@@ -188,3 +195,25 @@ html {
     text-align: left;
     padding-top: 10px
 }
+
+/*------------------->>>>Media Queries<<<<------------------------*/
+
+  @media only screen and (min-width: 320px) {
+      /*your CSS Rules*/     
+    }
+    @media only screen and (min-width: 480px) {
+      /*your CSS Rules*/     
+    }
+    @media only screen and (min-width: 640px) {
+      /*your CSS Rules*/     
+    }
+    @media only screen and (min-width: 768px) {
+      .navbar{
+          position: fixed;
+      }     
+      
+      
+    }       
+    @media only screen and (min-width: 960px) {
+      /*your CSS Rules*/ 
+    }
