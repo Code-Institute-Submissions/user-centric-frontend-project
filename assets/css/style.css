@@ -29,7 +29,7 @@ html {
 
 .navbar .navbar-nav a {
     color: #fff;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 .navbar .navbar-nav a:hover {
@@ -47,6 +47,8 @@ html {
     border: 3px solid #fff;
     border-radius: .25rem;
 }
+
+
 /*============================================================================*/
 /*                           >>>> JUMBOTRON <<<<                              */
 /*============================================================================*/
