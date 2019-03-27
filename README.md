@@ -2,12 +2,11 @@
 
 This is a Gym webpage with a sales-funnel and copywrit layout.
  
+ <img src="../images/readme-imgs" >
 ## UX
 
 The website is made ultimately for gym, to grab the user attention and show them the value they will receive from the company.
-
 With the contrast of differnt worm colors such as orange it gives the feeling of warmt, confort and welcome to the user.
-
 Moreover, different sections are used such as features to give the user sure to become a member. 
  
 ### Goal
@@ -16,7 +15,13 @@ Moreover, different sections are used such as features to give the user sure to 
 
 ## Features
 
-The landing page is made with the purpose to 
+The landing page is made with different purposes, to grab the user attention and take action in terms of subscription.
+
+The feature section is mainly developed to detail what are the features the company has and what are their price.
+
+The testimonial section is the section in which the gym has a more personal approach with the website user. 
+Two different users and a personal trainer left their terstimony to detail their experience, succes history and impressions with the gym.
+So, future users may remove their objections and subscribe/join the Gym service. 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
