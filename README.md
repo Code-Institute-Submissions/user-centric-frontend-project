@@ -2,7 +2,8 @@
 
 This is a Gym webpage with a sales-funnel and copywrit layout.
  
- <img src="../images/readme-imgs" width="200" heigh="200" >
+ <img src="assets/images/readme-imgs/devices.png" width="200" heigh="200" >
+ 
 ## UX
 
 The website is made ultimately for gym, to grab the user attention and show them the value they will receive from the company.
