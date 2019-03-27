@@ -2,7 +2,7 @@
 
 This is a Gym webpage with a sales-funnel and copywrit layout.
  
- <img src="../images/readme-imgs" >
+ <img src="../images/readme-imgs" width="200" heigh="200" >
 ## UX
 
 The website is made ultimately for gym, to grab the user attention and show them the value they will receive from the company.
@@ -15,9 +15,15 @@ Moreover, different sections are used such as features to give the user sure to 
 
 ## Features
 
+##### Landing page
+
 The landing page is made with different purposes, to grab the user attention and take action in terms of subscription.
 
+##### Features
+
 The feature section is mainly developed to detail what are the features the company has and what are their price.
+
+##### Testimonials
 
 The testimonial section is the section in which the gym has a more personal approach with the website user. 
 Two different users and a personal trainer left their terstimony to detail their experience, succes history and impressions with the gym.
