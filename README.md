@@ -30,25 +30,26 @@ The testimonial section is the section in which the gym has a more personal appr
 Two different users and a personal trainer left their terstimony to detail their experience, succes history and impressions with the gym.
 So, future users may remove their objections and subscribe/join the Gym service. 
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+
+- Another feature that I am learning and I would like to implement is a emailed follow-up for high-ticket sales. 
+- Once a user is subscribed and/or member of the gym, the follow up can bring them to different levels of value within the company until reach the high-ticket sale.
+- Which could be a personal-trainer or a high-level training bootcamp costing €1000+.
 
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML](https://html.com/)
+    - The project uses **HTML** to structure the website content.
+    
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    - The project uses **CSS** to style the website bringing more meaning and beauty for its content.
 
-
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** a CSS framework used to develop responsive and mobile-first websites.
+    
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
