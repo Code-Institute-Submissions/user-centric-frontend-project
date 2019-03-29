@@ -28,9 +28,9 @@ html {
     border-bottom: 3px solid #d8d0b8;
 }
 
-.navbar .navbar-nav a {
+/*.navbar .navbar-nav a {
     color: #fff;
-}
+}*/
 
 .navbar .navbar-nav a:hover {
     color: #fff;
@@ -79,7 +79,6 @@ html {
     transform: translate(-50%, -50%)
 }
 
-.jumbo-row {}
 
 /*============================================================================*/
 
@@ -275,9 +274,6 @@ iframe {
         padding-bottom: 40px;
     }
 }
-
-
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {}
 
 
 /*============================================================================*/

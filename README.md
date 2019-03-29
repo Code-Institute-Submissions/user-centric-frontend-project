@@ -14,11 +14,13 @@ Moreover, different sections are used such as features to give the user sure to 
 
 -The main goal is to make visitors subscribe.
 
-## Features
+### Pages
 
 ##### Landing page
 
 The landing page is made with different purposes, to grab the user attention and take action in terms of subscription.
+
+The Button (Subscribe Now) Brings the user to a Google forms page, where the Gym company can follow up with its lead.
 
 ##### Features
 
@@ -29,6 +31,21 @@ The feature section is mainly developed to detail what are the features the comp
 The testimonial section is the section in which the gym has a more personal approach with the website user. 
 Two different users and a personal trainer left their terstimony to detail their experience, succes history and impressions with the gym.
 So, future users may remove their objections and subscribe/join the Gym service. 
+
+#### Main Colors used
+
+- > #fff : White - Mainly used to beautify words.
+- > #ff8c00 : Used as rgb(255, 140, 0) on navbar as a worm color.
+- > #fa709a :
+- > #fee140 :
+- > #3a3e42 : 
+- > #d8d0b8 : 
+
+##### Linear gradients
+
+- > Features : background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); A worm and strong color to keep the attention throught the website and feel welcome as well as triggered to be part of the gym.
+- > Video Section : background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); A worm but different linear gradient from the feature section. It was made purpositaly to keep the attention of the reader and not keep he or she tired. 
+- > footer : background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); different from the entire section. A could color to contrast and bring the attention to the reader.
  
 
 ### Features Left to Implement
@@ -51,6 +68,46 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **Bootstrap** a CSS framework used to develop responsive and mobile-first websites.
     
 ## Testing
+
+The work was tested in many different real and virtual screens. 
+
+- Phones:
+
+   - Galaxy S5
+   - Pixel 2
+   - Pixel 2XL
+   - iPhone 5/SE
+   - iPhone 6/7/8
+   - iPhone 6/7/8 Plus (virtual and real device)
+   - iPhone X
+
+- Tablets:
+
+   - iPad
+   - iPad Pro
+ 
+- Desktops:
+
+   - ThinkPad x1 Carbon
+   
+- Television
+  
+   - 4k Television (real device)
+
+### How the website was tested?
+
+I used the Chrome developer tool to test the website in different screens and my iPhone 6 to know whether the outcomes were working. I tryed different websites to try different screens, however not having the real outcome.
+Bear in mind that I just used Chrome Developer Tools to test virtually different screens.
+
+
+
+
+
+
+
+
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
