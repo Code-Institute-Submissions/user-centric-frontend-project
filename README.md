@@ -7,19 +7,18 @@ This is a Gym webpage with a sales-funnel and copywrit layout.
 ## UX
 
 The website is made ultimately for gym, to grab the user attention and show them the value they will receive from the company.
-With the contrast of differnt worm colors such as orange it gives the feeling of warmt, confort and welcome to the user.
+With the contrast of differnt worm colors such as orange that gives the feeling of warmt, confort and welcome to the user.
 Moreover, different sections are used such as features to give the user sure to become a member. 
  
 ### Goal
 
--The main goal is to make visitors subscribe.
+- The main goal is to make visitors subscribe.
 
 ### Pages
 
 ##### Landing page
 
 The landing page is made with different purposes, to grab the user attention and take action in terms of subscription.
-
 The Button (Subscribe Now) Brings the user to a Google forms page, where the Gym company can follow up with its lead.
 
 ##### Features
@@ -34,9 +33,9 @@ So, future users may remove their objections and subscribe/join the Gym service.
 
 ##### Linear gradients
 
-- > Features : background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); A worm and strong color to keep the attention throught the website and feel welcome as well as triggered to be part of the gym.
-- > Video Section : background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); A worm but different linear gradient from the feature section. It was made purpositaly to keep the attention of the reader and not keep he or she tired. 
-- > footer : background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); different from the entire section. A could color to contrast and bring the attention to the reader.
+- > Features : background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); A worm and strong color to keep the attention throught the website with a feelling of welcome as well as triggered to be part of the gym.
+- > Video Section : background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); A worm but different linear gradient from the feature section. It was made purpositaly to keep the attention of the reader and not keep he or she tired with the same standard. 
+- > footer : background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); different from the entire body. A cold color to contrast and bring the attention to the reader at the end of the webiste.
  
 
 ### Features Left to Implement
@@ -47,7 +46,7 @@ So, future users may remove their objections and subscribe/join the Gym service.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+The languages I used to develop this webpage are:
 
 - [HTML](https://html.com/)
     - The project uses **HTML** to structure the website content.
@@ -58,7 +57,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses **Bootstrap** a CSS framework used to develop responsive and mobile-first websites.
     
-## Testing
+## Testing 
 
 The work was tested in many different real and virtual screens. 
 
@@ -108,8 +107,6 @@ If you need to test the resposiveness of the website yourself you can use the sa
 
 ## Credits
 
-### Content
-
 ##### HTML
 
 - [Bootstrap cards](https://getbootstrap.com/docs/4.0/components/card/#header-and-footer).
@@ -123,7 +120,7 @@ If you need to test the resposiveness of the website yourself you can use the sa
 - Line (1) @import:; source from the resume-mini-project made by Code Institute.
 
 ### Media
-- The photos used in this site were obtained from [Unsplash.com](https://unsplash.com/) and {Pixabay.com](https://pixabay.com/).
+- The photos used in this site were obtained from [Unsplash.com](https://unsplash.com/) and [Pixabay.com](https://pixabay.com/).
 
 ### Acknowledgements
 
