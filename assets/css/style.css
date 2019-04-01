@@ -234,7 +234,9 @@ iframe {
 
 /*============================================================================*/
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 823px) {
+
+
+@media only screen and (min-width: 320px) and (max-width: 823px) {
 
     .navbar {
         position: fixed;
@@ -276,16 +278,10 @@ iframe {
 }
 
 
-/*============================================================================*/
-
-/*                                References                                  */
-
-/*============================================================================*/
-
-/* 1--How to dark a background image using css - answer: https://stackoverflow.com/questions/22000754/responsive-bootstrap-jumbotron-background-image?lq=1*/
-
-/* 2--How to center content - code source: https://www.w3.org/Style/Examples/007/center.en.html*/
-
-/* 3--Line (1) @import:; source from the resume-mini-project made by Code Institute.*/
-
-/* 4--From line (156) to (183) code from resume-mini-project made by Code Institute.*/
+/*@media only screen and (min-device-width : 375px) and (max-device-width : 667px) { 
+    
+    .jumbotron.row.col-12 h1{
+        font-size: 15px;
+    }
+ }
+*/

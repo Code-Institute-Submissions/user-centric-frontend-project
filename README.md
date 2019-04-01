@@ -32,15 +32,6 @@ The testimonial section is the section in which the gym has a more personal appr
 Two different users and a personal trainer left their terstimony to detail their experience, succes history and impressions with the gym.
 So, future users may remove their objections and subscribe/join the Gym service. 
 
-#### Main Colors used
-
-- > #fff : White - Mainly used to beautify words.
-- > #ff8c00 : Used as rgb(255, 140, 0) on navbar as a worm color.
-- > #fa709a :
-- > #fee140 :
-- > #3a3e42 : 
-- > #d8d0b8 : 
-
 ##### Linear gradients
 
 - > Features : background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); A worm and strong color to keep the attention throught the website and feel welcome as well as triggered to be part of the gym.
@@ -96,57 +87,44 @@ The work was tested in many different real and virtual screens.
 
 ### How the website was tested?
 
-I used the Chrome developer tool to test the website in different screens and my iPhone 6 to know whether the outcomes were working. I tryed different websites to try different screens, however not having the real outcome.
-Bear in mind that I just used Chrome Developer Tools to test virtually different screens.
+I used the Chrome developer tool and Responsinator.com to test the website in different screens and my iPhone 6 to know whether the outcomes were working. I tryed different websites to try different screens, however not having the real outcome.
+I had some issues to fix such as @media queries with (max/min-device-width) that wasn't allowing media queries be accepted to these websites. Therefore, I changed these media queries from (max/min-device-width) to (max/min-width) and the changes I made worked well appearing all of the changes with not issues.
 
+If you need to test the resposiveness of the website yourself you can use the same tools I used:
 
+- > Chrome Developer Tools:
+    1. Click on the website with the right button;
+    2. Then click inspect;
+    3. Once the Web-developer tools appear, click Ctrl+Shift+M to test the webpage on different screens.
 
-
-
-
-
-
-
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- > Responsinator.com
+    1. follow the link responsinator.com;
+    2. copy the website link (url) and paste within the field and click go.
+    3. The webpage will be displayed in different screens already not needing to change as same as GCDT.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+- I used Github to deploy the final result of (https://eliasoprado.github.io/user-centric-frontend-project/).
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+##### HTML
+
+- [Bootstrap cards](https://getbootstrap.com/docs/4.0/components/card/#header-and-footer).
+- [Md Bootstrap](https://mdbootstrap.com/docs/jquery/sections/testimonials/).
+- [Transparent-Navbar](https://stackoverflow.com/questions/16392952/css-to-make-bootstrap-navbar-transparent).
+
+##### CSS
+
+- [Dark-background](https://stackoverflow.com/questions/22000754/responsive-bootstrap-jumbotron-background-image?lq=1).
+- [Center content](https://www.w3.org/Style/Examples/007/center.en.html).
+- Line (1) @import:; source from the resume-mini-project made by Code Institute.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Unsplash.com](https://unsplash.com/) and {Pixabay.com](https://pixabay.com/).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from [Aspen Grove Studios](https://aspengrovestudios.com/the-10-best-examples-of-fitness-sites-made-with-divi/)
