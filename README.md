@@ -41,8 +41,7 @@ So, future users may remove their objections and subscribe/join the Gym service.
 ### Features Left to Implement
 
 - Another feature that I am learning and I would like to implement is a emailed follow-up for high-ticket sales. 
-- Once a user is subscribed and/or member of the gym, the follow up can bring them to different levels of value within the company until reach the high-ticket sale.
-- Which could be a personal-trainer or a high-level training bootcamp costing €1000+.
+- Once a user is subscribed and/or member of the gym, the follow up can bring them to different levels of value within the company until reach the high-ticket sale. Which could be a personal-trainer or a high-level training bootcamp costing €1000+.
 
 ## Technologies Used
 
@@ -100,6 +99,13 @@ If you need to test the resposiveness of the website yourself you can use the sa
     1. follow the link responsinator.com;
     2. copy the website link (url) and paste within the field and click go.
     3. The webpage will be displayed in different screens already not needing to change as same as GCDT.
+
+### Unfixed bugs
+
+There are two bugs that I could not fix with the navbar. 
+
+- I could not change the color and font of the navbar in both small and big screens.
+- As the color and font of the navbar doesn't change, it does not appear 100% clear on small screens.
 
 ## Deployment
 
