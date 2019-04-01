@@ -2,7 +2,7 @@
 
 /*============================================================================*/
 
-/*                          >>>> HTML & Body <<<<                             */
+/*                               HTML & Body                                  */
 
 /*============================================================================*/
 
@@ -15,9 +15,10 @@ html {
     font-size: 20px
 }
 
+
 /*============================================================================*/
 
-/*                             >>>> NAVBAR <<<<                               */
+/*                                  NAVBAR                                    */
 
 /*============================================================================*/
 
@@ -28,10 +29,6 @@ html {
     border-bottom: 3px solid #d8d0b8;
 }
 
-/*.navbar .navbar-nav a {
-    color: #fff;
-}*/
-
 .navbar .navbar-nav a:hover {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.3);
@@ -40,10 +37,9 @@ html {
 }
 
 
-
 /*============================================================================*/
 
-/*                           >>>> JUMBOTRON <<<<                              */
+/*                                JUMBOTRON                                   */
 
 /*============================================================================*/
 
@@ -51,11 +47,8 @@ html {
     background-image: linear-gradient( rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)),
     url("../images/photos/gym4.jpg");
-    /*code above is to display dark overlay\*/
     color: #fff;
     margin-bottom: 0;
-    /*background-attachment: fixed;*/
-    /*parallax effect*/
     -webkit-box-align: end;
     -ms-flex-align: end;
     align-items: flex-end;
@@ -82,7 +75,7 @@ html {
 
 /*============================================================================*/
 
-/*                           >>>> FEATURES <<<<                               */
+/*                                FEATURES                                    */
 
 /*============================================================================*/
 
@@ -108,9 +101,10 @@ html {
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
+
 /*============================================================================*/
 
-/*                          >>>> TESTIMONIALS <<<<                            */
+/*                               TESTIMONIALS                                 */
 
 /*============================================================================*/
 
@@ -118,9 +112,10 @@ html {
     color: orange;
 }
 
+
 /*============================================================================*/
 
-/*                         >>>> Video - Section <<<<                          */
+/*                              Video - Section                               */
 
 /*============================================================================*/
 
@@ -154,9 +149,10 @@ iframe {
     content: justify-center;
 }
 
+
 /*============================================================================*/
 
-/*                        >>>> Footer - Section <<<<                          */
+/*                            Footer - Section                                */
 
 /*============================================================================*/
 
@@ -165,8 +161,6 @@ iframe {
     color: #fff;
     border-top: solid 5px #42b9f4;
 }
-
-/*social media links code brought from the resume-mini-project----------------*/
 
 .social-links {
     padding-bottom: 25px;
@@ -201,14 +195,13 @@ iframe {
     box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
-/*social media links code brought from the resume-mini-project----------------*/
-
 .footer-col h5,
 .footer-col p,
 .footer-col ul {
     text-align: left;
     padding-top: 10px
 }
+
 
 /*============================================================================*/
 
@@ -222,9 +215,7 @@ iframe {
     background-color: #3a3e42;
     color: #fff;
     font-family: "Exo", sans-serif;
-    /* border-top: solid 1px #fff;*/
 }
-
 
 
 /*============================================================================*/
@@ -272,7 +263,6 @@ iframe {
     div.features .card-deck .col-12 .col-md-4 {
         padding-bottom: 40px;
     }
-
 }
 
 @media (min-width: 576px) {
