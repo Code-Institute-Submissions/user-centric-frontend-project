@@ -6,9 +6,9 @@ This is a Gym webpage with a sales-funnel and copywrit layout.
  
 ## UX
 
-The website is made ultimately for gym, to grab the user attention and show them the value they will receive from the company.
-With the contrast of differnt worm colors such as orange that gives the feeling of warmt, confort and welcome to the user.
-Moreover, different sections are used such as features to give the user sure to become a member. 
+The website is made ultimately for a gym, to grab the user attention and show them the value they will receive from the company.
+With the contrast of different warm colors such as orange that gives the feeling of warmth, comfort and welcome to the user.
+Moreover, different sections are used such as features to give the user sure to become a member.
  
 ### Goal
 
@@ -23,25 +23,25 @@ The Button (Subscribe Now) Brings the user to a Google forms page, where the Gym
 
 ##### Features
 
-The feature section is mainly developed to detail what are the features the company has and what are their price.
+The feature section is mainly developed to detail what are the features the company have and what are their price.
 
 ##### Testimonials
 
 The testimonial section is the section in which the gym has a more personal approach with the website user. 
-Two different users and a personal trainer left their terstimony to detail their experience, succes history and impressions with the gym.
+Two different users and a personal trainer left their testimony to detail their experience, success history and impressions with the gym.
 So, future users may remove their objections and subscribe/join the Gym service. 
 
 ##### Linear gradients
 
-- > Features : background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); A worm and strong color to keep the attention throught the website with a feelling of welcome as well as triggered to be part of the gym.
-- > Video Section : background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); A worm but different linear gradient from the feature section. It was made purpositaly to keep the attention of the reader and not keep he or she tired with the same standard. 
-- > footer : background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); different from the entire body. A cold color to contrast and bring the attention to the reader at the end of the webiste.
+- > Features : background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); A warm and strong color to keep the attention throught the website with a feelling of welcome as well as triggered to be part of the gym.
+- > Video Section : background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%); Also a warm but different linear gradient from the feature section. It was made purposely to keep the attention of the reader and not keep he or she tired with the same standard. 
+- > Footer : background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%); Different from the entire body, a cold color to contrast and bring the attention to the reader at the end of the webiste.
  
 
 ### Features Left to Implement
 
-- Another feature that I am learning and I would like to implement is a emailed follow-up for high-ticket sales. 
-- Once a user is subscribed and/or member of the gym, the follow up can bring them to different levels of value within the company until reach the high-ticket sale. Which could be a personal-trainer or a high-level training bootcamp costing €1000+.
+- Another feature that I am learning and I would like to implement is an emailed follow-up for high-ticket sales. 
+- Once a user is subscribed and/or member of the gym, the follow up can bring them to different levels of value within the company until reach the high-ticket sale. Which could be a personal trainer or a high-level training boot camp costing €1000+.
 
 ## Technologies Used
 
@@ -85,10 +85,10 @@ The work was tested in many different real and virtual screens.
 
 ### How the website was tested?
 
-I used the Chrome developer tool and Responsinator.com to test the website in different screens and my iPhone 6 to know whether the outcomes were working. I tryed different websites to try different screens, however not having the real outcome.
-I had some issues to fix such as @media queries with (max/min-device-width) that wasn't allowing media queries be accepted to these websites. Therefore, I changed these media queries from (max/min-device-width) to (max/min-width) and the changes I made worked well appearing all of the changes with not issues.
+I used the Chrome developer tool and Responsinator.com to test the website on different screens and my iPhone 6 to know whether the outcomes were working. I tried different websites to try different screens, however not having the real outcome.
+I had some issues to fix such as @media queries with (max/min-device-width) that weren't allowing media queries to be accepted to these websites. Therefore, I changed these media queries from (max/min-device-width) to (max/min-width) and the changes I made worked well appearing all of the changes with no issues.
 
-If you need to test the resposiveness of the website yourself you can use the same tools I used:
+If you need to test the responsiveness of the website yourself you can use the same tools I used:
 
 - > Chrome Developer Tools:
     1. Click on the website with the right button;
@@ -97,7 +97,7 @@ If you need to test the resposiveness of the website yourself you can use the sa
 
 - > Responsinator.com
     1. follow the link responsinator.com;
-    2. copy the website link (url) and paste within the field and click go.
+    2. copy the website link (URL) and paste within the field and click go.
     3. The webpage will be displayed in different screens already not needing to change as same as GCDT.
 
 ### Unfixed bugs
@@ -105,7 +105,7 @@ If you need to test the resposiveness of the website yourself you can use the sa
 There are two bugs that I could not fix with the navbar. 
 
 - I could not change the color and font of the navbar in both small and big screens.
-- As the color and font of the navbar doesn't change, it does not appear 100% clear on small screens.
+- As the color and font of the navbar don't change, it does not appear 100% clear on small screens.
 
 ## Deployment
 
